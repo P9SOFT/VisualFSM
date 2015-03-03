@@ -1,5 +1,5 @@
 # VisualFSM
-Draw FSM using Visio and it will generate states and conditions as a XML format, then you just write your logic for each state.
+Draw FSM(Finite State Machine) using 'Microsoft Office Visio' and it will generate states and conditions as a XML format, then you just write your logic for each state.
 
 ## Quick start
 
