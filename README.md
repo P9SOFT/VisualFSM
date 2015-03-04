@@ -5,7 +5,8 @@ Draw FSM(Finite State Machine) using 'Microsoft Office Visio' and it will genera
 
 #### Step 1. 
  - Drag and drop to draw your FSM logic using 'Microsoft Office Visio'.
- 
+![Draw FSM](https://dl.dropboxusercontent.com/s/q4hryfxam0et51m/FSMScreenShot_Sht_Start.png) 
+
 #### Step 2. 
  - Generate XML and definition files using 'ExportToXML.cls' script file('Macro' menu).
  
