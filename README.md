@@ -8,7 +8,11 @@ Draw FSM(Finite State Machine) using 'Microsoft Office Visio' and it will genera
 ![Draw FSM](https://dl.dropboxusercontent.com/s/q4hryfxam0et51m/FSMScreenShot_Sht_Start.png) 
 
 -----------
+
+
 Sub States (Sht_SubLogic)
+
+
 ![Sub FSM](https://dl.dropboxusercontent.com/s/td2e2pvzxvulvmn/FSMScreenShot_Sht_SubLogic.png?dl=0)
 
 #### Step 2. 
