@@ -78,8 +78,13 @@
 
 -(bool) OnBranchIsThisGood
 {
-    self.txtviewLog.text = [self.txtviewLog.text stringByAppendingString:@"BRANCH STATE. \"IsThisGood? : Said YES.\"\r\n"];
-    return true;
+    static bool sayYes = false;
+    sayYes = !sayYes;
+    
+    NSString* log = [NSString stringWithFormat:@"BRANCH STATE. \"IsThisGood? : Said %@.\"\r\n", (sayYes ? @"\'YES\'" : @"\'NO\'")];
+    self.txtviewLog.text = [self.txtviewLog.text stringByAppendingString:log];
+    
+    return sayYes;
 }
 
 @end
